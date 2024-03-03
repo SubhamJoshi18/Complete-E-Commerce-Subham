@@ -1,0 +1,17 @@
+{
+  "Success": true,
+  "message": "Review Created SuccessFully for the Product 65e2ed718e4c818fee964556",
+  "Review": {
+    "newReview": {
+      "rating": 89,
+      "title": "Comment",
+      "comment": "A very good Product",
+      "user": "65e453415d132a5d548e84be",
+      "product": "65e2ed718e4c818fee964556",
+      "_id": "65e459a0cbb229687c95e1b8",
+      "createdAt": "2024-03-03T11:06:08.440Z",
+      "updatedAt": "2024-03-03T11:06:08.440Z",
+      "__v": 0
+    }
+  }
+}
