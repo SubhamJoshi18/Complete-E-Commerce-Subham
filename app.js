@@ -8,6 +8,7 @@ import productRouter from "./routes/product.route.js";
 import dotenv from "dotenv";
 import authrouter from "./routes/auth.route.js";
 import Reviewrouter from "./routes/review.route.js";
+import Orderrouter from "./routes/order.route.js";
 import fileUplaod from "express-fileupload";
 //photo file aru upload garna ko lagi ho yo
 // import { errorHandlerMiddleware } from "./middleware/error-handler.js";
@@ -36,6 +37,7 @@ app.use("/auth", authrouter);
 app.use("/user", userRouter);
 app.use("/product", productRouter);
 app.use("/review", Reviewrouter);
+app.use("/order", Orderrouter);
 
 app.use(async (req, res, next) => {
   next(createError("The Route does not exist"));
